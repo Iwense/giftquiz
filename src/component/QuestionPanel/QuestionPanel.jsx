@@ -15,17 +15,28 @@ import './QuestionPanel.css';
 
 const useStyles = makeStyles({
   root: {
-    width: 700,
-    minHeight:350,
-    maxHeight:400,
+    width: '100%',
+    // minHeight:350,
+    // maxHeight:400,
     textAlign:'left',
-    padding:50
+    paddingBottom: 24,
+  },
+  questionWrapper:{
+    display: 'flex',
+    flexDirection: 'column'
+  },
+  noMargin:{
+    margin:0
+  },
+  button: {
+    width: '100%',
+    margin: '4px 0px'
   },
   question:{
     color:'black',
-    fontSize: '2rem',
+    fontSize: '20px',
+    fontWeight:600,
   },
-
   progressRoot: {
     height: 10,
     backgroundColor: lighten('#ff6c5c', 0.5),
@@ -36,63 +47,31 @@ const useStyles = makeStyles({
     height: 16,
     borderRadius: 20,
   },
-});
+  score:{
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+}, {index: 3});
 
 export default function QuestionPanel({question, nextQuestion, total, questionNo, progress, checkUserAnswer,maxScore, score}) {
   const [answered,setAnswered] = useState('');
   const [message,setMessage]=useState(''); 
+  const classes = useStyles();
   
   const handleAnswer = (ans) =>{
     setAnswered(ans);
     checkUserAnswer(ans);
     if(decodeURIComponent(question['correct_answer'])==ans){
-      setMessage('Correct!')
+      setMessage('Верно!')
     }
     else{
-      setMessage('InCorrect!')
+      setMessage('Упс, неверно!')
     }
-
   }
 
-  function difficultyLevelChecker (){
-    if(question['difficulty'] === 'hard'){
-      return (
-        <>
-       <StarFillIcon/>
-       <StarFillIcon/>
-       <StarFillIcon/>
-       </>
-      )
-    }
-    else if (question['difficulty'] === 'medium'){
-      return (
-        <>
-       <StarFillIcon/>
-       <StarFillIcon/>
-       <StarOutlineIcon/>
-       </>
-      )
-    }
-    else if (question['difficulty'] === 'easy'){
-      return (
-        <>
-       <StarFillIcon/>
-       <StarOutlineIcon/>
-       <StarOutlineIcon/>
-       </>
-      )
-    } 
-    else {
-      return (
-        <>
-       <StarOutlineIcon/>
-       <StarOutlineIcon/>
-       <StarOutlineIcon/>
-       </>
-      )
-    } 
-   }
-  const classes = useStyles();
+  
   return (<>
         <div className={classes.progressRoot}>
 
@@ -108,21 +87,23 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
           <CardActionArea>  
             <CardContent>
               <Typography variant="h5" component="h3">
-                Question {questionNo} of {total}
+                Вопрос {questionNo} из {total}
               </Typography>
               <Typography gutterBottom variant="body2" color="textSecondary" component="p">
                 {decodeURIComponent(question['category'])}
               </Typography>
-              { difficultyLevelChecker()}
               <Divider/>
               <Typography  variant="body1" color="textSecondary" component="p" className={classes.question}>
                 {decodeURIComponent(question['question'])}
               </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
+          <CardActions 
+          disableSpacing={true}
+          className={classes.questionWrapper}>
             { question['incorrect_answers'].map(key =>
-                <Button variant={answered === decodeURIComponent(key)? "contained" :"outlined"} 
+                <Button className={classes.button}
+                        variant={answered === decodeURIComponent(key)? "contained" :"outlined"} 
                         color="primary" key={decodeURIComponent(key)} 
                         onClick={()=>handleAnswer(decodeURIComponent(key))}
                         disabled={answered!==''?true : false}
@@ -131,15 +112,10 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
                 </Button>
               )
             }
-            <Button variant={answered === decodeURIComponent(question['correct_answer'])? "contained" :"outlined"} 
-                    color="primary" key={decodeURIComponent(question['correct_answer'])} 
-                    onClick={()=>handleAnswer(decodeURIComponent(question['correct_answer']))}
-                    disabled={answered!==''?true : false}
-            >
-                  {decodeURIComponent(question['correct_answer'])}
-            </Button>
           </CardActions>
-          <Typography variant="h5" component="h3" className="message">
+          
+          
+          <Typography variant="h5" component="h5" className="message">
               {answered && message}
           </Typography>
             
@@ -148,28 +124,24 @@ export default function QuestionPanel({question, nextQuestion, total, questionNo
               className="next-button" 
               color="secondary" key="next" onClick={()=>{nextQuestion(); setAnswered('');}} 
               >
-                Next Question
+                Следующий вопрос
           </Button>
           
           : ''}
             
 
         </Card>
-        <div className="score-wrapper">
-          <p>Score: {score} %</p>
-          <p>MaxScore: {maxScore} %</p> 
-        </div>
+          <div className={classes.score}>
+            {questionNo !== 20 ? (
+              <p>Верные ответы: {score} / {questionNo-1} </p>
+            ) : (
+              <p>Верные ответы: {score} / {questionNo} </p>
+            )
+          }
+            
+          </div>
+        
 
-
-        <div className={classes.progressRoot}>
-          <BorderLinearProgress
-              className={classes.bar}
-              variant="determinate"
-              color="secondary"
-              value={score}
-              valueBuffer={maxScore}
-            />
-        </div>
     </>
   );
 }

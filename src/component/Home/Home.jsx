@@ -34,14 +34,15 @@ class Home extends Component {
         if(decodeURIComponent(current_question['correct_answer'])==userAns){
             this.setState({currectAnswered:currectAnswered+1});
 
-            const _score =(((currectAnswered +1) / (current_question_no)) * 100).toFixed(2);
+            // const _score =(((currectAnswered +1) / (current_question_no)) * 100).toFixed(2);
+            const _score = currectAnswered + 1
             this.setState({score:_score});
         }
         else{
             this.setState({wrongAnswered:wrongAnswered+1});
 
-            const _score =(((currectAnswered) / (current_question_no)) * 100).toFixed(2);
-            this.setState({score:_score});
+            // const _score =(((currectAnswered) / (current_question_no)) * 100).toFixed(2);
+            // this.setState({score:_score});
         }
 
         let _maxScore = (((current_question_no) / (total_question_no)) * 100).toFixed(2);
