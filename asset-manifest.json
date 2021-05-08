@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/giftquiz/static/css/main.41afd4d1.chunk.css",
-    "main.js": "/giftquiz/static/js/main.074dd296.chunk.js",
-    "main.js.map": "/giftquiz/static/js/main.074dd296.chunk.js.map",
+    "main.css": "/giftquiz/static/css/main.a420ae3d.chunk.css",
+    "main.js": "/giftquiz/static/js/main.0423f423.chunk.js",
+    "main.js.map": "/giftquiz/static/js/main.0423f423.chunk.js.map",
     "runtime-main.js": "/giftquiz/static/js/runtime-main.978c7548.js",
     "runtime-main.js.map": "/giftquiz/static/js/runtime-main.978c7548.js.map",
     "static/js/2.2ba35895.chunk.js": "/giftquiz/static/js/2.2ba35895.chunk.js",
     "static/js/2.2ba35895.chunk.js.map": "/giftquiz/static/js/2.2ba35895.chunk.js.map",
     "index.html": "/giftquiz/index.html",
-    "precache-manifest.3a8e49118851114c22e07e299e039a7e.js": "/giftquiz/precache-manifest.3a8e49118851114c22e07e299e039a7e.js",
+    "precache-manifest.5f3b59ccdecd53af54f303289c7e32c5.js": "/giftquiz/precache-manifest.5f3b59ccdecd53af54f303289c7e32c5.js",
     "service-worker.js": "/giftquiz/service-worker.js",
-    "static/css/main.41afd4d1.chunk.css.map": "/giftquiz/static/css/main.41afd4d1.chunk.css.map",
+    "static/css/main.a420ae3d.chunk.css.map": "/giftquiz/static/css/main.a420ae3d.chunk.css.map",
     "static/js/2.2ba35895.chunk.js.LICENSE.txt": "/giftquiz/static/js/2.2ba35895.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.978c7548.js",
     "static/js/2.2ba35895.chunk.js",
-    "static/css/main.41afd4d1.chunk.css",
-    "static/js/main.074dd296.chunk.js"
+    "static/css/main.a420ae3d.chunk.css",
+    "static/js/main.0423f423.chunk.js"
   ]
 }
