@@ -29,7 +29,7 @@
       "category": "Вопрос из инстаграмма",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Количество твоих актуальных сторис? ",
+      "question": "Количество твоих 'актуальных' сторис? ",
       "correct_answer": "13",
       "incorrect_answers": ["10", "15", "13","12"]
     },
@@ -49,7 +49,7 @@
       "category": "Вопрос из инстаграмма ",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "С какого фильма началася пятизвездочная система?",
+      "question": "С какого фильма началась пятизвездочная система?",
       "correct_answer": "Ундина",
       "incorrect_answers": ["Ундина", "Грань времени", "Молочные зубы", "Дьявол в деталях"]
     },
@@ -71,7 +71,7 @@
     },
     {
       "category": "Вопрос из инстаграмма",
-      "type": "boolean",
+      "type": "multiple",
       "difficulty": "easy",
       "question": "Сколько сторис в актуальных 'Победы' ?",
       "correct_answer": "18",
@@ -81,7 +81,7 @@
       "category": "Вопрос из инстаграмма",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Сколько денег тебе подарили на ДР в 2013 году, вместе с халатом Локомотива?",
+      "question": "Сколько тысяч тебе подарили на ДР в 2013 году, вместе с халатом Локомотива?",
       "correct_answer": "7",
       "incorrect_answers": [
         "4",
@@ -111,9 +111,9 @@
     },
     {
       "category": "Вопрос из инстаграмма",
-      "type": "boolean",
+      "type": "multiple",
       "difficulty": "medium",
-      "question": "Какое название нет в твоих 'актуальных'?",
+      "question": "Какого названия нет в твоих 'актуальных'?",
       "correct_answer": "Друзья",
       "incorrect_answers": ["Интересное", "НН", "Актуальное", "Друзья"]
     },
@@ -167,7 +167,7 @@
     },
     {
       "category": "Вопрос из жизни",
-      "type": "boolean",
+      "type": "multiple",
       "difficulty": "easy",
       "question": "Какого числа ты переехал в Москву?",
       "correct_answer": "2 марта",

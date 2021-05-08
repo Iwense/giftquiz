@@ -1,194 +1,196 @@
 [
   {
-    "category": "Entertainment%3A%20Video%20Games",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "What%20was%20the%20name%20of%20the%20hero%20in%20the%2080s%20animated%20video%20game%20%27Dragon%27s%20Lair%27%3F",
-    "correct_answer": "Dirk%20the%20Daring",
+    "question": "Сколько было шаров на потолке в одном из последних сторис?",
+    "correct_answer": "11",
     "incorrect_answers": [
-      "Arthur",
-      "Sir%20Toby%20Belch",
-      "Guy%20of%20Gisbourne"
+      "9",
+      "11",
+      "12",
+      "10"
     ]
   },
   {
-    "category": "Animals",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What%20is%20the%20scientific%20name%20for%20modern%20day%20humans%3F",
-    "correct_answer": "Homo%20Sapiens",
+    "question": "Дата твоего первого поста в инстаграмм?",
+    "correct_answer": "3.05.2013",
     "incorrect_answers": [
-      "Homo%20Ergaster",
-      "Homo%20Erectus",
-      "Homo%20Neanderthalensis"
+      "3.06.2013",
+      "4.05.2013",
+      "5.03.2013",
+      "3.05.2013"
     ]
   },
   {
-    "category": "Entertainment%3A%20Books",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "What%20is%20Ron%20Weasley%27s%20middle%20name%3F",
-    "correct_answer": "Bilius",
-    "incorrect_answers": ["Arthur", "John", "Dominic"]
+    "question": "Количество твоих актуальных сторис? ",
+    "correct_answer": "13",
+    "incorrect_answers": ["10", "15", "13","12"]
   },
   {
-    "category": "Entertainment%3A%20Comics",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Who%20is%20the%20creator%20of%20the%20comic%20series%20%22The%20Walking%20Dead%22%3F",
-    "correct_answer": "Robert%20Kirkman",
+    "question": "Сколько фотографий с тобой в аккаунте твоей мамы?",
+    "correct_answer": "30",
     "incorrect_answers": [
-      "Stan%20Lee",
-      "Malcolm%20Wheeler-Nicholson",
-      "Robert%20Crumb"
+      "8",
+      "24",
+      "30", "41"
     ]
   },
   {
-    "category": "Entertainment%3A%20Board%20Games",
+    "category": "Вопрос из инстаграмма ",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "At%20the%20start%20of%20a%20standard%20game%20of%20the%20Monopoly%2C%20if%20you%20throw%20a%20double%20six%2C%20which%20square%20would%20you%20land%20on%3F",
-    "correct_answer": "Electric%20Company",
-    "incorrect_answers": ["Water%20Works", "Chance", "Community%20Chest"]
+    "question": "С какого фильма началася пятизвездочная система?",
+    "correct_answer": "Ундина",
+    "incorrect_answers": ["Ундина", "Грань времени", "Молочные зубы", "Дьявол в деталях"]
   },
   {
-    "category": "Geography",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What%20is%20the%20capital%20of%20Jamaica%3F",
-    "correct_answer": "Kingston",
-    "incorrect_answers": ["Rio%20de%20Janeiro", "Dar%20es%20Salaam", "Kano"]
+    "question": "Сколько звёзд ты поставил фильму 'Малькольм и Мари'",
+    "correct_answer": "4",
+    "incorrect_answers": ["2", "5", "4","3"]
   },
   {
-    "category": "History",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "When%20did%20Jamaica%20recieve%20its%20independence%20from%20England%3F%20",
-    "correct_answer": "1962",
-    "incorrect_answers": ["1492", "1963", "1987"]
+    "question": "Какой оскороносный фильм получил 4 звезды, а не 5?",
+    "correct_answer": "Минари",
+    "incorrect_answers": ["Английский пациент", "Минари", "Столкновение", "Непрощенный"]
   },
   {
-    "category": "Animals",
-    "type": "boolean",
+    "category": "Вопрос из инстаграмма",
+    "type": "multiple",
     "difficulty": "easy",
-    "question": "Kangaroos%20keep%20food%20in%20their%20pouches%20next%20to%20their%20children.",
-    "correct_answer": "False",
-    "incorrect_answers": ["True"]
+    "question": "Сколько сторис в актуальных 'Победы' ?",
+    "correct_answer": "18",
+    "incorrect_answers": ["20","17","18","21"]
   },
   {
-    "category": "General%20Knowledge",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "In%202013%20how%20much%20money%20was%20lost%20by%20Nigerian%20scams%3F",
-    "correct_answer": "%2412.7%20Billion",
+    "question": "Сколько денег тебе подарили на ДР в 2013 году, вместе с халатом Локомотива?",
+    "correct_answer": "7",
     "incorrect_answers": [
-      "%2495%20Million",
-      "%24956%20Million",
-      "%242.7%20Billion"
+      "4",
+      "9",
+      "7", "5"
     ]
   },
   {
-    "category": "History",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "How%20old%20was%20Lyndon%20B.%20Johnson%20when%20he%20assumed%20the%20role%20of%20President%20of%20the%20United%20States%3F",
-    "correct_answer": "55",
-    "incorrect_answers": ["50", "60", "54"]
+    "question": "Сколько постов в твоём инстаграмм с хештегом #покер(poker)?",
+    "correct_answer": "7",
+    "incorrect_answers": ["6", "11", "8", "7"]
   },
   {
-    "category": "Entertainment%3A%20Video%20Games",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "In%20World%20of%20Warcraft%20lore%2C%20who%20organized%20the%20creation%20of%20the%20Paladins%3F",
-    "correct_answer": "Alonsus%20Faol",
+    "question": "Какого спорта нет на фото в твоём инстаграмме?",
+    "correct_answer": "Хоккей",
     "incorrect_answers": [
-      "Uther%20the%20Lightbringer",
-      "Alexandros%20Mograine",
-      "Sargeras%2C%20The%20Daemon%20Lord"
+      "Капоэйра",
+      "Хоккей",
+      "Настольный теннис", "Баскетбол"
     ]
   },
   {
-    "category": "Entertainment%3A%20Video%20Games",
-    "type": "boolean",
-    "difficulty": "medium",
-    "question": "In%20the%20game%20%22Subnautica%22%2C%20a%20%22Cave%20Crawler%22%20will%20attack%20you.",
-    "correct_answer": "True",
-    "incorrect_answers": ["False"]
-  },
-  {
-    "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What%20is%20the%20name%20of%20the%20device%20that%20allows%20for%20infinite%20energy%20in%20the%20anime%20%22Dimension%20W%22%3F",
-    "correct_answer": "Coils",
-    "incorrect_answers": ["Wires", "Collectors", "Tesla"]
+    "question": "Какое название нет в твоих 'актуальных'?",
+    "correct_answer": "Друзья",
+    "incorrect_answers": ["Интересное", "НН", "Актуальное", "Друзья"]
   },
   {
-    "category": "Entertainment%3A%20Video%20Games",
+    "category": "Вопрос из жизни",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What%20is%20the%20name%20of%20Cream%20the%20Rabbit%27s%20mom%20in%20the%20%22Sonic%20the%20Hedgehog%22%20series%3F",
-    "correct_answer": "Vanilla",
-    "incorrect_answers": ["Peach", "Strawberry", "Mint"]
+    "question": "Какой город упомянут на толстовке, в которой ты был на ДР у Саши на даче в 2019?",
+    "correct_answer": "Boston",
+    "incorrect_answers": ["New York", "Boston", "London", "Miami"]
   },
   {
-    "category": "History",
+    "category": "Вопрос из жизни",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "На какой улице мы жили в Минске?",
+    "correct_answer": "Немига",
+    "incorrect_answers": ["Немига", "Ленина", "Проспект независимости", "Молоденческая"]
+  },
+  {
+    "category": "Вопрос из ВК",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "These%20two%20countries%20held%20a%20commonwealth%20from%20the%2016th%20to%2018th%20century.",
-    "correct_answer": "Poland%20and%20Lithuania",
+    "question": "Сколько подписчиков у тебя в ВК?",
+    "correct_answer": "760",
     "incorrect_answers": [
-      "Hutu%20and%20Rwanda",
-      "North%20Korea%20and%20South%20Korea",
-      "Bangladesh%20and%20Bhutan"
+      "650",
+      "760",
+      "280", "520"
     ]
   },
   {
-    "category": "Entertainment%3A%20Television",
+    "category": "Вопрос из инстаграмма",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "Which%20of%20these%20voices%20wasn%27t%20a%20choice%20for%20the%20House%20AI%20in%20%22The%20Simpsons%20Treehouse%20of%20Horror%22%20short%2C%20House%20of%20Whacks%3F",
-    "correct_answer": "George%20Clooney",
+    "question": "Дата первой фотки в инстаграмм из Армии?",
+    "correct_answer": "15.01.2017",
     "incorrect_answers": [
-      "Matthew%20Perry",
-      "Dennis%20Miller",
-      "Pierce%20Brosnan"
+      "15.01.2017",
+      "24.07.2016",
+      "30.03.2017", "02.04.2017"
     ]
   },
   {
-    "category": "Entertainment%3A%20Music",
+    "category": "Вопрос из жизни",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "From%20which%20album%20is%20the%20Gorillaz%20song%2C%20%22On%20Melancholy%20Hill%22%20featured%20in%3F",
-    "correct_answer": "Plastic%20Beach",
-    "incorrect_answers": ["Demon%20Days", "Humanz", "The%20Fall"]
+    "question": "На какой улице находился ресторан в Москве, где мы пили апероль?",
+    "correct_answer": "Ярцевская",
+    "incorrect_answers": ["Братиславская", "Перерва", "Ярцевская", "Партизанская"]
   },
   {
-    "category": "General%20Knowledge",
-    "type": "boolean",
+    "category": "Вопрос из жизни",
+    "type": "multiple",
     "difficulty": "easy",
-    "question": "Scotland%20voted%20to%20become%20an%20independent%20country%20during%20the%20referendum%20from%20September%202014.",
-    "correct_answer": "False",
-    "incorrect_answers": ["True"]
+    "question": "Какого числа ты переехал в Москву?",
+    "correct_answer": "2 марта",
+    "incorrect_answers": ["2 марта","4 марта","1 марта","3 марта"]
   },
   {
-    "category": "Entertainment%3A%20Video%20Games",
+    "category": "Вопрос из жизни",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "In%20Left%204%20Dead%2C%20which%20campaign%20has%20the%20protagonists%20going%20through%20a%20subway%20in%20order%20to%20reach%20a%20hospital%20for%20evacuation%3F",
-    "correct_answer": "No%20Mercy",
+    "question": "Как назывался бар, в котором мы смотрели стендап с тобой?",
+    "correct_answer": "Джи Джи Гриль",
     "incorrect_answers": [
-      "Subway%20Sprint",
-      "Hospital%20Havoc",
-      "Blood%20Harvest"
+      "Бар вино","Бар Lola",
+      "Джи Джи Гриль",
+      "Hidden Bar"
     ]
   },
   {
-    "category": "History",
+    "category": "Вопрос из жизни",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "What%20was%20the%20last%20colony%20the%20UK%20ceded%20marking%20the%20end%20of%20the%20British%20Empire%3F",
-    "correct_answer": "Hong%20Kong",
-    "incorrect_answers": ["India", "Australia", "Ireland"]
+    "question": "Ты классный?",
+    "correct_answer": "Да!!!",
+    "incorrect_answers": ["Да", "Да!!!", "Да!"]
   }
 ]
